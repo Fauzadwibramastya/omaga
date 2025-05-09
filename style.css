@@ -1,0 +1,202 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242943;
+    padding: 15px 20px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo img {
+    height: 40px; /* Ukuran logo */
+    width: auto;
+  }  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #989698;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #dcdcdc;
+  }
+
+  
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .btn {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  color: #989698;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-buttons .btn:hover {
+  background-color: #181615;
+  color: #dcdcdc;
+}
+.box {
+  display: inline-block;
+  color:#989698;
+  background-color: #242943;
+  padding: 95px;
+  width: auto;
+  margin: 0px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.box img {
+  float :right;
+  width: 50%;
+  height: 0%;
+  margin-top: -30px;;
+}
+
+.text-white{
+color : #ffffff;
+}
+
+.hero .btn-get-started {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.box-2 {
+  display: flex;
+  justify-content: space-between; /* atau center / space-around */
+  margin: 20px auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+}
+
+.item img {
+  width: 50px; /* sesuaikan dengan ukuran icon */
+  height: 50px;
+  margin: 10px;
+}
+
+.item p {
+  font-size: 14px;
+  color: #333;
+}
+
+.judul {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 40px;
+  text-align: center;
+  color:#333;
+}
+
+.font-text {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: space-between;
+  color:#989698;
+  background-color: #dcdcdc;
+  padding: 95px;
+  width: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.statistik-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 95px;
+  background-color: #dcdcdc;
+  margin: 20px auto;
+  margin-bottom: auto;
+}
+
+.gambar img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 30px;
+  margin-top: 0px auto;
+  background-color: #333;
+  color: white;
+  
+  
+}
+
+.logo-footer {
+  height: 50px;
+  width: auto;
+}
+
+.footer-kanan p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.font-size{
+  font-size: 14px;
+  max-width: 500px;
+  word-wrap: break-word;
+  color: #8f8d8d;
+}
+
+.text-bar {
+  margin-left: 20px;
+  margin-top: 0% auto;
+  font-size: 1rem;
+  color: #333;
+  
+}
+
+.highlight {
+  margin-left: 20px;
+  font-size: 1.2rem;   /* Lebih besar */
+  font-weight: bold;   /* Tebal */
+  margin-right: 10px;   /* Jarak dari teks berikutnya */
+}
